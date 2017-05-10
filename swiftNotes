@@ -1,0 +1,33 @@
+// Int Type is signed in Swift, which means 
+
+
+// Swift is a compiled language. Ruby and JavaScript are interpreted.
+// Compiled completely vs translated on the fly.
+
+// Native apps and games are typically built with a compiled language (performance).
+
+// Ternary condition operator is shorthand for:
+// if question { answer 1} else { answer 2}
+
+let contentHeight = 40
+let hasHeader = true
+let rowHight = contentHeight + (hasHeader ? 50 : 20)
+
+// nil-coalescing operator (a ?? b) unwraps optional a if it contains a value or returns a default value b if a is nil. b must match type of a.
+
+// (a ?? b) is shorthand for vvv
+// a != nil a! : b
+// closed range operator: (a...b) defines a range that runs from a to b
+// 
+for index in 1...5 { 
+    print ("\(index) times 5 is \ (index * 5)")
+}
+// half open range operator (a..<b), range runs from a to be, but does not include b
+
+// Swift is a statically typed language, which means that each type must be specified when declared
+// Strongly typed languages typically allow the computer to run more efficiently by allocating just enough memory for the data type
+// Swift will infer a type from the given value
+// Swift promotes usage of both var and let (const)
+// var and let to define mutability
+
+// Swift has string interpolation: lets us inject constant and variables into a new string. Anything inside the parenthesis in \() gets evaluated and injected into the string
